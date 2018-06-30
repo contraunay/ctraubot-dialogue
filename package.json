@@ -1,0 +1,30 @@
+{
+  "name": "ctraubot-dialogue",
+  "version": "1.0.0",
+  "description": "dialogue handling of ctraubot. it work with data prodived by ctrau-nlu",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contraunay/ctraubot-dialogue.git"
+  },
+  "keywords": [
+    "chatbot",
+    "botkit",
+    "rasa",
+    "nlu"
+  ],
+  "author": "Huong Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contraunay/ctraubot-dialogue/issues"
+  },
+  "homepage": "https://github.com/contraunay/ctraubot-dialogue#readme",
+  "dependencies": {
+    "botkit": "^0.6.14",
+    "dotenv": "^6.0.0",
+    "request-promise": "^4.2.2"
+  }
+}
